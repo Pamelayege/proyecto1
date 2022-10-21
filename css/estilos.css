@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+* {
+    font-family: 'Roboto', sans-serif;
+    color:#996508;
+
+}
+
+.book img {
+    background: linear-gradient(to right, red , yellow );
+}
+
+a {
+    text-decoration: none;
+}
+
+body {background-color: whitesmoke;}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.app div {
+    max-width: 1120px;
+}
+
+.title h1 {
+    
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+
+.subtitle h2 {
+    
+    text-align: center;
+    font-size: 30px;  
+    padding-top: 0;
+    margin-top: 0;
+    font-weight: normal;
+}
+
+.subtitle {
+    margin-bottom: 50px;
+}
+
+
+ul {
+    
+    font-size: 15px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+ 
+nav ul li {
+    padding: 0 10px;
+}
+
+.welcome {
+    width: 1120px;
+}
+
+.items {
+    text-decoration: none;
+    display: flex;
+    justify-content:space-between;
+    list-style: none;
+    width: 1120px;
+}
+
+.items > div {
+    text-align: center;
+    
+}
+.items > div > div {
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.images {
+    display: flex;
+    
+}
+
+.principal h3 {
+    display: flex;
+    border-bottom: 1px solid rgb(211, 143, 6);
+    width: 1120px;
+    padding-bottom: 5px;
+}
